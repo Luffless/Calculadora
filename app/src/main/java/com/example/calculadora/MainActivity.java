@@ -147,7 +147,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                             resultado = Double.toString(valor1 - valor2);
                             valor1 = Double.parseDouble(resultado);
                             Operacao = "-";
-                            valor2 = 0;
+                            valor2 = 01;
                             break;
 
                         case R.id.btnMultiplica:
